@@ -19,7 +19,7 @@ export const ReactionTest: React.FC = () => {
 
   return (
     <div 
-      className={`w-full h-full min-h-screen flex flex-col items-center justify-center cursor-pointer transition-colors duration-200 select-none ${currentBgClass}`}
+      className={`w-full flex-1 flex flex-col items-center justify-center cursor-pointer transition-colors duration-200 select-none ${currentBgClass}`}
       onMouseDown={handleClick}
     >
       <div className="text-white text-center p-6 flex flex-col items-center">
